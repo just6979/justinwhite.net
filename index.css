@@ -22,6 +22,8 @@ footer {
 	text-align: center;
 }
 footer li {
+    display: inline;
     list-style-type: none;
-	display: inline;
+    position: relative;
+    left: -1.25em;
 }
