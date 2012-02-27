@@ -3,8 +3,11 @@ body {
     background-color: #9999a1;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, dt {
 	font-family: sans-serif;
+}
+dt {
+    font-weight: bold;
 }
 img {
 	border: 0;
@@ -20,14 +23,17 @@ header, footer {
     padding: 1em;
 	text-align: center;
 }
-header li, footer li {
+header li {
     display: inline;
-    list-style-type: none;
-    position: relative;
-    left: -1em;
 }
 footer {
     padding: 0 1em;
+}
+footer li {
+    display: block;
+    list-style-type: none;
+    position: relative;
+    left: -0.5em;
 }
 article {
 }
