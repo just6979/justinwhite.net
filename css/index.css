@@ -1,6 +1,6 @@
 body {
-    color: $111119;
-    background-color: #9999a1;
+    color: $111111;
+    background-color: #999999;
     margin: 0;
 }
 h1, h2, h3, h4, h5, h6, dt {
@@ -8,6 +8,9 @@ h1, h2, h3, h4, h5, h6, dt {
 }
 dt {
     font-weight: bold;
+}
+dd {
+    text-align: justify;
 }
 img {
 	border: 0;
@@ -41,20 +44,17 @@ footer li {
 article {
 }
 section {
-	color: #47474f;
-    background-color: #ccccd4;
-    color: #33333B;
-    background-color: #aaaab2;
+    color: #333333;
+    background-color: #aaaaaa;
 	margin: 0;
-	padding: 0.5em 1em 0.5em 0.5em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	border-top: solid thin;
 }
 section h2 {
     margin-top: 0.5em;
 }
 section p {
-    padding-left: 0.5em;
-    text-indent: 0.5em;
+    text-indent: 1em;
     text-align: justify;
 }
 section:nth-child(1) {

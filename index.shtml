@@ -59,12 +59,8 @@ I love [distributed] version control. I started with Subversion, which is not di
     <dt><a href="http://code.google.com/u/109007983296189609553/">Google Code</a></dt>
         <dd>App Engine projects, for Google Account usage.</dd>
 </dl>
-</section>
-
-<section>
-<h2>Misc</h2>
 <p>
-<a href="/">This site</a> is built in <a href="http://www.w3.org/html/logo/"><em>HTML5 with Styling and Semantics</em></a> and is hosted at <a href="https://www.nearlyfreespeech.net/">NearlyFreeSpeech.net</a>, with <a href="http://bitbucket.org/just6979/justinwhite.net">sources</a> in a <a href="http://mercurial.selenic.com/">Mercurial</a> repository hosted by <a href="http://bitbucket.org">Bitbucket</a>.
+<a href="http://bitbucket.org/just6979/justinwhite.net">Source</a> for (this page and the global styles and scripts of) <a href="/">justinwhite.net</a> is a <a href="http://mercurial.selenic.com/">Mercurial</a> repository hosted by <a href="http://bitbucket.org/">Bitbucket</a>.
 </p>
 </section>
 
