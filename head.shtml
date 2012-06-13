@@ -7,7 +7,7 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="/css/index.css">
 <style>@media only screen and (max-height: 600px) {section div{display: none;}}</style>
-<script async type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script async type="text/javascript">
 $(document).ready(function(){
 $("section header").click(function(event){
