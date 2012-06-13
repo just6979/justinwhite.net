@@ -15,4 +15,11 @@
 
 <script async type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
-<script async type="text/javascript" src="/js/index.js"></script>
+<script async type="text/javascript">
+// global site JS
+$(document).ready(function(){
+    $("section header").click(function(event){
+        $(this).siblings('.content').toggleClass("visible invisible");
+    });
+});
+</script>
