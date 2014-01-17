@@ -42,13 +42,11 @@ This shouldn't break very often, since it's all static files, with just server s
 </header>
 <div class="content">
 <p>
-These projects (possibly imcomplete) are no longer being worked on, for various reasons ranging from "The server/service was retired so I ported it to a new platform to learn something new." to "I found something good enough that already does what I wanted." to "I just ran out of interest."
+These projects (possibly incomplete) are no longer being worked on, for various reasons ranging from "The server/service was retired so I ported it to a new platform to learn something new." to "I found something good enough that already does what I wanted." to "I just ran out of interest."
 </p>
 <dl>
     <dt><a href="http://just6979.appspot.com/">Old Personal Site</a></dt>
         <dd>Ported from Apache httpd with mod_python on a FreeBSD server in my basement, to Google App Engine, to learn the platform.</dd>
-    <dt><a href="/syncprofilepics">Sync Profile Pics</a> Experiment</dt>
-        <dd>Sync high quality Facebook profile pictures to Google Contacts. Found an app, SyncMyPics, to perform the sync on the mobile device.</dd>
 </dl>
 </div>
 </section>
