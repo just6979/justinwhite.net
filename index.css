@@ -26,10 +26,6 @@ a {
   color: #aaccff;
 }
 
-header {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 hgroup, footer {
   margin: 0em;
   padding: 1em 0em;
@@ -89,12 +85,4 @@ section p {
 .content {
   padding: 0 1em;
   border-bottom: solid thin #9999a1;
-}
-
-.invisible {
-  display: none;
-}
-
-.visible {
-  display: block;
 }
