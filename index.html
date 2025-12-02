@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>justinwhite.net</title>
-    <meta name="viewport" content="width=device-width initial-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
-    <style>@media only screen and (max-height: 600px) {
-      section div {
-        display: none;
-      }
-    }</style>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script async type="text/javascript">
-      $(document).ready(function () {
-        $("section header").click(function (event) {
-          $(this).siblings(".content").toggleClass("visible invisible")
-        })
-      })
-    </script>
+	<title>justinwhite.net</title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<style>@media only screen and (max-height: 600px) {
+		section div {
+			display: none;
+		}
+	}</style>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script async type="text/javascript">
+		$(document).ready(function () {
+			$("section header").click(function (event) {
+				$(this).siblings(".content").toggleClass("visible invisible")
+			})
+		})
+	</script>
 
-    <script type="text/javascript">
+	<script type="text/javascript">
 
-			const _gaq = _gaq || []
-			_gaq.push(["_setAccount", "UA-21833265-1"])
-      _gaq.push(["_setDomainName", "justinwhite.net"])
-      _gaq.push(["_trackPageview"]);
+		const _gaq = _gaq || []
+		_gaq.push(["_setAccount", "UA-21833265-1"])
+		_gaq.push(["_setDomainName", "justinwhite.net"])
+		_gaq.push(["_trackPageview"]);
 
-      (function () {
-				const ga = document.createElement("script")
-				ga.type = "text/javascript"
-        ga.async = true
-        ga.src = ("https:" === document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js"
-				const s = document.getElementsByTagName("script")[0]
-				s.parentNode.insertBefore(ga, s)
-      })()
+		(function () {
+			const ga = document.createElement("script")
+			ga.type = "text/javascript"
+			ga.async = true
+			ga.src = ("https:" === document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js"
+			const s = document.getElementsByTagName("script")[0]
+			s.parentNode.insertBefore(ga, s)
+		})()
 
-    </script>
+	</script>
 </head>
 <body>
 
 <header>
-    <hgroup>
-        <h1 class="title"><a href="/">justinwhite.net</a></h1>
-        <p>
-            Justin's inter-web headquarters!
-        </p>
-    </hgroup>
+	<hgroup>
+		<h1 class="title"><a href="/">justinwhite.net</a></h1>
+		<p>
+			Justin's inter-web headquarters!
+		</p>
+	</hgroup>
 </header>
 
 <!--
@@ -67,151 +67,151 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <article>
 
-    <section>
-        <header>
-            <h2>About</h2>
-        </header>
-        <div class="content">
-            <p>
-                This is my personal home/placeholder-ish site. Here you can mostly just find links to other projects
-                I've worked on in my spare time, and current things I'm experimenting with.
-            </p>
-            <p>
-                This shouldn't break very often, since it's all static files, with just server side includes to maintain
-                a consistent look (header, footer, base styles) through all the local experiments. If something looks
-                broken, assume I'm testing changes and will be pushing fixes through version control soon.
-            </p>
-            <h3>Resume</h3>
-            <p>
-                <a href="/resume/">My resume</a> is available as a modern, responsively designed HTML document. The <a
-                    href="//bitbucket.org/just6979/responsive-resume/">source</a> is available at Bitbucket, and the
-                original template came from <a href="//www.alistapart.com/articles/a-case-for-responsive-resumes/">A
-                List Apart</a>.
-            </p>
-        </div>
-    </section>
+	<section>
+		<header>
+			<h2>About</h2>
+		</header>
+		<div class="content">
+			<p>
+				This is my personal home/placeholder-ish site. Here you can mostly just find links to other projects
+				I've worked on in my spare time, and current things I'm experimenting with.
+			</p>
+			<p>
+				This shouldn't break very often, since it's all static files, with just server side includes to maintain
+				a consistent look (header, footer, base styles) through all the local experiments. If something looks
+				broken, assume I'm testing changes and will be pushing fixes through version control soon.
+			</p>
+			<h3>Resume</h3>
+			<p>
+				<a href="/resume/">My resume</a> is available as a modern, responsively designed HTML document. The <a
+				href="//bitbucket.org/just6979/responsive-resume/">source</a> is available at Bitbucket, and the
+				original template came from <a href="//www.alistapart.com/articles/a-case-for-responsive-resumes/">A
+				List Apart</a>.
+			</p>
+		</div>
+	</section>
 
-    <section>
-        <header>
-            <h2>Semi-current Projects</h2>
-        </header>
-        <div class="content">
-            <dl>
-                <dt>Custom Maps web interface</dt>
-                <dd><a href="https://market.android.com/details?id=com.custommapsapp.android">Custom Maps</a> is a great
-                    Android app I often use for local state park maps. I would like to port some of Marko's (Java for
-                    Android)constructs to a web framework, probably (Java-based) Google Web Toolkit. It would be great
-                    to enable sharing of map sets, creating & editing map sets on a bigger screen, and best of all:
-                    overlaying custom maps with things such as tracks from My Tracks, EndoMondo, or OpenGPSTracker.
-                </dd>
-                <dt>Interval training Android app</dt>
-                <dd>Simply set warm-up and cool-down times, work and rest times, interval count, hit go, turn on your
-                    motivational music, go get fit. There are a bunch like this on the Android Market, but most either
-                    look terrible or have tons of extra crap. I just want one screen with 5 number-choosers and a big
-                    "Go" button, with Text-to-Speech telling you when to change pace. The only thing I'd eventually add
-                    is profiles for different types of workouts, say for running, biking, etc.
-                </dd>
-            </dl>
-        </div>
-    </section>
+	<section>
+		<header>
+			<h2>Semi-current Projects</h2>
+		</header>
+		<div class="content">
+			<dl>
+				<dt>Custom Maps web interface</dt>
+				<dd><a href="https://market.android.com/details?id=com.custommapsapp.android">Custom Maps</a> is a great
+					Android app I often use for local state park maps. I would like to port some of Marko's (Java for
+					Android)constructs to a web framework, probably (Java-based) Google Web Toolkit. It would be great
+					to enable sharing of map sets, creating & editing map sets on a bigger screen, and best of all:
+					overlaying custom maps with things such as tracks from My Tracks, EndoMondo, or OpenGPSTracker.
+				</dd>
+				<dt>Interval training Android app</dt>
+				<dd>Simply set warm-up and cool-down times, work and rest times, interval count, hit go, turn on your
+					motivational music, go get fit. There are a bunch like this on the Android Market, but most either
+					look terrible or have tons of extra crap. I just want one screen with 5 number-choosers and a big
+					"Go" button, with Text-to-Speech telling you when to change pace. The only thing I'd eventually add
+					is profiles for different types of workouts, say for running, biking, etc.
+				</dd>
+			</dl>
+		</div>
+	</section>
 
-    <section>
-        <header>
-            <h2>Old Projects</h2>
-        </header>
-        <div class="content">
-            <p>
-                These projects (possibly incomplete) are no longer being worked on, for various reasons ranging from
-                "The server/service was retired so I ported it to a new platform to learn something new." to "I found
-                something good enough that already does what I wanted." to "I just ran out of interest."
-            </p>
-            <dl>
-                <dt><a href="http://just6979.appspot.com/">Old Personal Site</a></dt>
-                <dd>Ported from Apache httpd with mod_python on a FreeBSD server in my basement, to Google App Engine,
-                    to learn the platform.
-                </dd>
-            </dl>
-        </div>
-    </section>
+	<section>
+		<header>
+			<h2>Old Projects</h2>
+		</header>
+		<div class="content">
+			<p>
+				These projects (possibly incomplete) are no longer being worked on, for various reasons ranging from
+				"The server/service was retired so I ported it to a new platform to learn something new." to "I found
+				something good enough that already does what I wanted." to "I just ran out of interest."
+			</p>
+			<dl>
+				<dt><a href="http://just6979.appspot.com/">Old Personal Site</a></dt>
+				<dd>Ported from Apache httpd with mod_python on a FreeBSD server in my basement, to Google App Engine,
+					to learn the platform.
+				</dd>
+			</dl>
+		</div>
+	</section>
 
-    <section>
-        <header>
-            <h2>Potential Projects</h2>
-        </header>
-        <div class="content">
-            <p>
-                These are some ideas I've head floating around in my head, some for years, some newish, all I would like
-                to get going someday, in no particular order.
-            </p>
-            <dl>
-                <dt>RC racing game</dt>
-                <dd>I always likes the physics of racing miniature vehicles through full sized environments. Re-Volt,
-                    released for PC and PS[2?], is a great example. Would be cool to model a range of real-world RC
-                    vehicles, to see if that old Tyco electric buggy you got when you were a kid could keep up with a
-                    modern four-wheel-drive, gas-powered truggy, and to see how that old car would perform with a couple
-                    well-chosen upgrades.
-                </dd>
-                <dt>Mine-based flight/fight game</dt>
-                <dd>Much like Descent. I loved Descent 1 & 2, and Descent 3 was a great game, but not quite the same as
-                    the first two. I'd like to recreate the feeling of first games, perhaps with some huge rooms, and
-                    maybe a tiny bit of outside flight, but only as, say, a shortcut or alternative route around
-                    something, not having outdoors be a big part. If the player does end up outside, I want to really
-                    show the scale of the mine being inside something the size of an asteroid, ie: see the curve of the
-                    outside shell. I would also like to experiment with organic looking, possibly procedurally
-                    generated, level design.
-                </dd>
-                <dt>Deep Wiki Engine</dt>
-                <dd>Basically, a web site management engine where everything, and I mean everything, from individual
-                    page content to templates to stylesheets and maybe even scripts, is editable through the browser
-                    interface. Revision control will have to be an integral part, along with a few pieces (fall-back
-                    editor, for example) that cannot be edited through the browser. Kind-of started this idea on App
-                    Engine.
-                </dd>
-            </dl>
-        </div>
-    </section>
+	<section>
+		<header>
+			<h2>Potential Projects</h2>
+		</header>
+		<div class="content">
+			<p>
+				These are some ideas I've head floating around in my head, some for years, some newish, all I would like
+				to get going someday, in no particular order.
+			</p>
+			<dl>
+				<dt>RC racing game</dt>
+				<dd>I always likes the physics of racing miniature vehicles through full sized environments. Re-Volt,
+					released for PC and PS[2?], is a great example. Would be cool to model a range of real-world RC
+					vehicles, to see if that old Tyco electric buggy you got when you were a kid could keep up with a
+					modern four-wheel-drive, gas-powered truggy, and to see how that old car would perform with a couple
+					well-chosen upgrades.
+				</dd>
+				<dt>Mine-based flight/fight game</dt>
+				<dd>Much like Descent. I loved Descent 1 & 2, and Descent 3 was a great game, but not quite the same as
+					the first two. I'd like to recreate the feeling of first games, perhaps with some huge rooms, and
+					maybe a tiny bit of outside flight, but only as, say, a shortcut or alternative route around
+					something, not having outdoors be a big part. If the player does end up outside, I want to really
+					show the scale of the mine being inside something the size of an asteroid, ie: see the curve of the
+					outside shell. I would also like to experiment with organic looking, possibly procedurally
+					generated, level design.
+				</dd>
+				<dt>Deep Wiki Engine</dt>
+				<dd>Basically, a web site management engine where everything, and I mean everything, from individual
+					page content to templates to stylesheets and maybe even scripts, is editable through the browser
+					interface. Revision control will have to be an integral part, along with a few pieces (fall-back
+					editor, for example) that cannot be edited through the browser. Kind-of started this idea on App
+					Engine.
+				</dd>
+			</dl>
+		</div>
+	</section>
 
-    <section>
-        <header>
-            <h2>Source Repositories</h2>
-        </header>
-        <div class="content">
-            <p>
-                I dig [distributed] version control. I started with Subversion, which is not distributed, but quickly
-                switched to Mercurial for my own projects, and I've now moved to Git like almost everyone else.
-            </p>
-            <ul>
-                <li>
-                    <a href="https://github.com/just6979/">Everything</a>
-                </li>
-                <li>
-                    <a href="https://github.com/just6979/resume.justinwhite.net">Resume/CV page</a>
-                    at <a href="https://www.justinwhite.net/resume">www.justinwhite.net/resume</a>
-									& <a href="https://resume.justinwhite.net">resume.justinwhite.net</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+	<section>
+		<header>
+			<h2>Source Repositories</h2>
+		</header>
+		<div class="content">
+			<p>
+				I dig [distributed] version control. I started with Subversion, which is not distributed, but quickly
+				switched to Mercurial for my own projects, and I've now moved to Git like almost everyone else.
+			</p>
+			<ul>
+				<li>
+					<a href="https://github.com/just6979/">Everything</a>
+				</li>
+				<li>
+					<a href="https://github.com/just6979/resume.justinwhite.net">Resume/CV page</a>
+					at <a href="https://www.justinwhite.net/resume">www.justinwhite.net/resume</a>
+					& <a href="https://resume.justinwhite.net">resume.justinwhite.net</a>
+				</li>
+			</ul>
+		</div>
+	</section>
 
 </article>
 
 <footer>
-    <ul>
-        <li><a href="https://www.nearlyfreespeech.net/"><img src="/img/NearlyFreeSpeech.NET_Logo.png"
+	<ul>
+		<li><a href="https://www.nearlyfreespeech.net/"><img src="/img/NearlyFreeSpeech.NET_Logo.png"
 																												 alt="Hosted at NearlyFreeSpeech.net"
 																												 title="Hosted at NearlyFreeSpeech.net" width="139" height="40"></a>
-        </li>
-        <li><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img
-                alt="Creative Commons License" style="border-width:0" src="/img/cc-by-nc-sa-3.0.png" width="88"
-                height="31"></a>
-        <li>
-    </ul>
-    <p id="copyright">
-			<a href="https://www.justinwhite.net/">justinwhite.net</a>
-			by <a href="mailto:jwATjustinwhiteDOTnet" property="cc:attributionName" rel="cc:attributionURL">Justin White</a>
-			is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-			Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
-    </p>
+		</li>
+		<li><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><img
+			alt="Creative Commons License" style="border-width:0" src="/img/cc-by-nc-sa-3.0.png" width="88"
+			height="31"></a>
+		<li>
+	</ul>
+	<p id="copyright">
+		<a href="https://www.justinwhite.net/">justinwhite.net</a>
+		by <a href="mailto:jwATjustinwhiteDOTnet" property="cc:attributionName" rel="cc:attributionURL">Justin White</a>
+		is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+	</p>
 </footer>
 
 </body>
