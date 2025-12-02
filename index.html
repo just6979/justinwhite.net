@@ -77,60 +77,66 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 				I've worked on in my spare time, and current things I'm experimenting with.
 			</p>
 			<p>
-				This shouldn't break very often, since it's all static files, with just server side includes to maintain
-				a consistent look (header, footer, base styles) through all the local experiments. If something looks
-				broken, assume I'm testing changes and will be pushing fixes through version control soon.
+				<a href="https://github.com/just6979/www.justinwhite.net">It's just HTML and CSS</a>.
+				If something looks broken, assume I'm testing changes and will be pushing fixes through version control soon.
 			</p>
 			<h3>Resume</h3>
 			<p>
-				<a href="/resume/">My resume</a> is available as a modern, responsively designed HTML document. The <a
-				href="//bitbucket.org/just6979/responsive-resume/">source</a> is available at Bitbucket, and the
-				original template came from <a href="//www.alistapart.com/articles/a-case-for-responsive-resumes/">A
-				List Apart</a>.
+				<a href="/resume/">My resume</a> is available as a modern, responsive HTML document.
+				Based on a template from
+				<a href="//www.alistapart.com/articles/a-case-for-responsive-resumes/">A List Apart</a>,
+				with source code <a href="https://github.com/just6979/resume.justinwhite.net">available here</a>
 			</p>
 		</div>
 	</section>
 
 	<section>
 		<header>
-			<h2>Semi-current Projects</h2>
+			<h2>Projects</h2>
 		</header>
 		<div class="content">
-			<dl>
-				<dt>Custom Maps web interface</dt>
-				<dd><a href="https://market.android.com/details?id=com.custommapsapp.android">Custom Maps</a> is a great
-					Android app I often use for local state park maps. I would like to port some of Marko's (Java for
-					Android)constructs to a web framework, probably (Java-based) Google Web Toolkit. It would be great
-					to enable sharing of map sets, creating & editing map sets on a bigger screen, and best of all:
-					overlaying custom maps with things such as tracks from My Tracks, EndoMondo, or OpenGPSTracker.
-				</dd>
-				<dt>Interval training Android app</dt>
-				<dd>Simply set warm-up and cool-down times, work and rest times, interval count, hit go, turn on your
-					motivational music, go get fit. There are a bunch like this on the Android Market, but most either
-					look terrible or have tons of extra crap. I just want one screen with 5 number-choosers and a big
-					"Go" button, with Text-to-Speech telling you when to change pace. The only thing I'd eventually add
-					is profiles for different types of workouts, say for running, biking, etc.
-				</dd>
-			</dl>
-		</div>
-	</section>
-
-	<section>
-		<header>
-			<h2>Old Projects</h2>
-		</header>
-		<div class="content">
+			<h3><a href="https://tide-catcher.justinwhite.net">Tide Catcher</a></h3>
 			<p>
-				These projects (possibly incomplete) are no longer being worked on, for various reasons ranging from
-				"The server/service was retired so I ported it to a new platform to learn something new." to "I found
-				something good enough that already does what I wanted." to "I just ran out of interest."
+				A small web app I made to check nearby
+				tides. I used to frequent a beach that allowed dogs year-round, but it was very very small at high tide,
+				and I wanted a way to quickly see the current tide as a glance. It currently uses the NOAA Tides & Currents
+				APIs for data, and I've been porting it to various frameworks and hosting services as a learning experience.
 			</p>
-			<dl>
-				<dt><a href="http://just6979.appspot.com/">Old Personal Site</a></dt>
-				<dd>Ported from Apache httpd with mod_python on a FreeBSD server in my basement, to Google App Engine,
-					to learn the platform.
-				</dd>
-			</dl>
+			<h4>Main Deployment</h4>
+			<p>
+				<a href="https://github.com/just6979/tide-catcher-vue">Tide Catcher Vue</a>
+				@ <a href="https://tide-catcher.justinwhite.net">tide-catcher.justinwhite.net</a>
+			</p>
+			<h4>Other Deployments</h4>
+			<p>
+				These ports are auto-deployed to a few places when their respective Github repositories are updated.
+			</p>
+			<h5><a href="https://github.com/just6979/tide-catcher-vue">Tide Catcher Vue</a></h5>
+			<p>Vite, Vue.js, TypeScript</p>
+			<ul>
+				<li>
+					Google Cloud Run:
+					https://tide-catcher-vue.justinwhite.net,
+					https://tide-catcher-vue-883942704963.us-east1.run.app
+				</li>
+				<li>Netlify: https://tide-catcher-vue.netlify.app</li>
+				<li>Github Pages: https://just6979.github.io/tide-catcher-vue</li>
+			</ul>
+			<h5><a href="https://github.com/just6979/tide-catcher-next">Tide Catcher Next</a></h5>
+			<p>Next.js, React, TypeScript</p>
+			<ul>
+				<li>
+					Google Cloud Run:
+					https://tide-catcher-next.justinwhite.net,
+					https://tide-catcher-next-1072051472642.us-east1.run.app
+				</li>
+				<li>Vercel: https://tide-catcher-next.vercel.app</li>
+			</ul>
+			<h5><a href="https://github.com/just6979/tide-catcher">Tide Catcher OG</a></h5>
+			<p>Python, Flask, JavaScript, Mustache.js, Backbone.js</p>
+			<ul>
+				<li>Google App Engine: https://tide-catcher.appspot.com</li>
+			</ul>
 		</div>
 	</section>
 
@@ -173,21 +179,25 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 	<section>
 		<header>
-			<h2>Source Repositories</h2>
+			<h2>Source</h2>
 		</header>
 		<div class="content">
 			<p>
-				I dig [distributed] version control. I started with Subversion, which is not distributed, but quickly
-				switched to Mercurial for my own projects, and I've now moved to Git like almost everyone else.
+				I dig distributed version control.
+				I started with Subversion (which is not distributed),
+				but quickly switched to Mercurial,
+				and I've now moved to Git like almost everyone else.
 			</p>
 			<ul>
 				<li>
-					<a href="https://github.com/just6979/">Everything</a>
+					<a href="https://github.com/just6979/www.justinwhite.net">This</a>
 				</li>
 				<li>
 					<a href="https://github.com/just6979/resume.justinwhite.net">Resume/CV page</a>
-					at <a href="https://www.justinwhite.net/resume">www.justinwhite.net/resume</a>
-					& <a href="https://resume.justinwhite.net">resume.justinwhite.net</a>
+					(available <a href="https://www.justinwhite.net/resume">here</a>)
+				</li>
+				<li>
+					<a href="https://github.com/just6979/">Everything</a>
 				</li>
 			</ul>
 		</div>
